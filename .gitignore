@@ -38,3 +38,6 @@ data/judgments/**/*.pdf
 
 # User uploaded material
 data/user_material/
+
+# Generated legal extraction output
+backend/ingestion/output/
