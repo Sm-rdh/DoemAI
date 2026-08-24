@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Chroma / vector databases
+chroma_db/
+chroma/
+vector_store/
+embeddings/
+*.sqlite
+*.sqlite3
+
+# Generated files
+outputs/
+results/
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Legal PDFs - keep locally, don't push to GitHub
+data/legislation/**/*.pdf
+data/judgments/**/*.pdf
+
+# User uploaded material
+data/user_material/
